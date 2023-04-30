@@ -8,10 +8,10 @@ let [filmes, setFilmes] = useState([]);
 
 
  
-const baseURL = 'https://api.otaviolube.com/api/filmes?populate=*';
+const baseUrl = 'https://api.otaviolube.com/api/filmes?populate=*';
 
 useEffect(function(){
-  fetch(baseURL). then(data => data.json())
+  fetch(baseUrl). then(data => data.json())
   .then(objeto => {
     console.log(objeto);
     setFilmes(objeto.data)
