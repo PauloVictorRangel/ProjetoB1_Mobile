@@ -23,7 +23,7 @@ export default function CardFilme({ filme }){
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: 'yellow',
+        backgroundColor: '#b32d00',
         margin: '20px',
         padding: '20px',
         alignItems: 'center',
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     button: {
         height: 50,
         width: '100%',
-        backgroundColor: 'orange',
+        backgroundColor: '#739900',
         alignItems: 'center',
         justifyContent: 'center'
 
