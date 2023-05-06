@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import { SafeAreaView, ScrollView, StyleSheet, Text } from 'react-native';
-import CardFilme from './AppFilmes/src/componentes/CardFilme';
+import CardFilme from 'src/componentes/CardFilme';
 
 export default function App() {
 
